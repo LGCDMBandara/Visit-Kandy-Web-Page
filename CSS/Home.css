@@ -1,0 +1,88 @@
+body{
+    background: linear-gradient(rgba(0,0,0,0.05),rgba(0,0,0,0.90)),url('../Background/bd.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.main { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.one {
+    text-align: center; 
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+h1 {
+    font-size: 100px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Kavoon';
+}
+
+h3{
+    text-align: center;
+    font-size: 30px;
+    color: #333;
+    font-family: DM Serif Display;
+}
+
+h4 {
+    color: #fff;
+    text-align: center;
+    font-family: 'GFS Didot';
+}
+
+p {
+    color: #333;
+    font-size: 13px;
+    text-align: justify;
+    font-family: 'Eczar';
+}
+
+
+.two { 
+    justify-content: space-between; 
+    align-items: center; 
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+input[type="submit"] {
+    background-color: #e68f2c;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'DM Serif Display';
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+.sub {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.con {
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+}
+
+

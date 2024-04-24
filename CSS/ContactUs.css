@@ -1,0 +1,45 @@
+body{
+    background: linear-gradient(rgba(0,0,0,0.05),rgba(0,0,0,0.90)),url('../Background/bd.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+ input,textarea {
+    width: 100%;
+    padding: 5px;
+    outline: none;
+    font-family: cursive;
+  }
+
+  label {
+    line-height: 1.9rem;
+    font-family: cursive;
+  }
+
+  input[type="submit"] {
+    background-color: #e68f2c;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: cursive;
+      margin-top: 10px;
+  }
+
+ fieldset {
+    padding: 20px 40px;
+    font-family: cursive;
+ }
+
+.con {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+}

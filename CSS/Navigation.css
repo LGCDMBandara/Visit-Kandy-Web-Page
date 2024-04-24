@@ -1,0 +1,52 @@
+.nav {
+    background-color: rgba(0,0,0,0.5); 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 10px;
+    
+}
+
+.nav img {
+  width: 100px; 
+}
+
+.list a{
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+    padding: 15px 18px;
+    color: white;
+}
+
+.list :hover{
+    background-color: #e68f2c;
+}
+
+.list a.active{
+    background-color: #e68f2c;
+}
+.list :before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #02f2f2;
+    transition: width 0.3s ease;
+}
+
+.nav-right {
+  display: flex; 
+}
+
+.nav-right i {
+  font-size: 24px; 
+  margin: 0 10px;
+    
+}
+
